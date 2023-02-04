@@ -3,12 +3,23 @@
 <%- include partials/main_nav.ejs %>
   
 
-  <!-- Main Content -->
-  <main class="container">
-    <div class="jumbotron">
-      
-    </div>
-  </main>
+<!--Main Content-->
+<% if(title == "Contact") { %>
+  <%- include contact.ejs %>
+<% } %>
+<% if(title == "Home") { %>
+  <%- include home.ejs %>
+<% } %>
+<% if(title == "About") { %>
+  <%- include about.ejs %>
+<% } %>
+<% if(title == "Projects") { %>
+  <%- include projects.ejs %>
+<% } %>
+<% if(title == "Services") { %>
+  <%- include services.ejs %>
+<% } %>
+
   
 <%- include partials/bottom_nav.ejs %>  
 

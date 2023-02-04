@@ -1,0 +1,59 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="contact">
+        <div class="screen">
+          <div class="screen-body">
+            <div class="screen-body-item left">
+              <div class="app-title">
+                <span>CONTACT</span>
+                <span>ME</span>
+              </div>
+              <div class="app-contact">CONTACT INFO : +1 437-424-1395</div>
+            </div>
+            <div class="screen-body-item">
+              <div class="app-form">
+                <div class="app-form-group">
+                  <input class="app-form-control" placeholder="FIRST NAME" >
+                </div>
+                <div class="app-form-group">
+                  <input class="app-form-control" placeholder="LAST NAME" >
+                </div>
+                <div class="app-form-group">
+                  <input class="app-form-control" placeholder="CONTACT NO">
+                </div>
+                <div class="app-form-group">
+                  <input class="app-form-control" placeholder="EMAIL">
+                </div>
+                <div class="app-form-group message">
+                  <input class="app-form-control" placeholder="MESSAGE">
+                </div>
+                <div class="app-form-group buttons">
+                  <button  class="app-form-button" href="/home">CANCEL</button>
+                  <button id = "submit" class="app-form-button" target="#thanks">SEND MESSAGE </button>
+                </div>
+              </div>
+            </div>
+          </div>        
+      </div>
+    </div>
+    
+  </main>
+  <!-- thank you message -->
+  
+<div id="thanks" class="alert-message" aria-hidden="true">
+  <p>Got it! Thank you so much for your comments. I will revert back to you soon.. Have a Good day.</p>
+</div>
+  
+<%- include partials/bottom_nav.ejs %>  
+
+<%- include partials/footer.ejs %>
+  
+
+
+
+

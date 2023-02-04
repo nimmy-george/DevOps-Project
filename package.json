@@ -22,16 +22,5 @@
     "popper.js": "^1.16.1"
   },
   "description": "my portfolio assignment",
-  "main": "index.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ChristyJose08/Portfolio-Assigment.git"
-  },
-  "author": "Christy Jose",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ChristyJose08/Portfolio-Assigment/issues"
-  },
-  "homepage": "https://github.com/ChristyJose08/Portfolio-Assigment#readme"
+  "main": "index.js"
 }

@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(to right, #ea1d6f 0%, #8b8788 100%);
+  background: linear-gradient(to right, #dad3d6 0%, hsl(344, 46%, 89%) 100%);
   font-size: 13px;
 }
 
@@ -18,7 +18,7 @@ body, button, input {
 }
 button{
     font-size: 13px;
-    color: #888888;
+    color: #f8efef;
     background: #3e3e3e;
 
   }

@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(to right, #ea1d6f 0%, #8b8788 100%);
+  background: linear-gradient(to right, #f7f1f3 0%, #938589 100%);
   font-size: 13px;
 }
 
@@ -74,7 +74,7 @@ button{
   bottom: -10px;
   width: 25px;
   height: 4px;
-  background: #ea1d6f;
+  background: #e1cfd6;
 }
 
 .app-contact {

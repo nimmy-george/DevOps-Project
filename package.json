@@ -22,13 +22,12 @@
     "popper.js": "^1.16.1"
   },
   "description": "my portfolio assignment",
-  "main": "index.js"
-  ,
+  "main": "index.js",
   "devDependencies": {},
   "repository": {
-     "type": "git",
-     "url": "https://github.com/ChristyJose08/Portfolio-Assigment.git"
-   },
+    "type": "git",
+    "url": "git+https://github.com/ChristyJose08/Portfolio-Assigment.git"
+  },
   "author": "Christy Jose",
   "license": "ISC",
   "bugs": {

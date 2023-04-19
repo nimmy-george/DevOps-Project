@@ -1,12 +1,12 @@
 pipeline {
   agent any
   environment {
-    DOCKERHUB_CREDENTIALS = credentials('dockerHubID')
+    DOCKERHUB_CREDENTIALS = credentials('dockerHub')
   }
   stages {
     stage('Build') {
       steps {
-        sh 'docker build -t nimmygeorge/devopsproject .'
+        sh 'docker build -t nimmygeorge/devopsproject:latest .'
       }
     }
   }

@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'sudo docker build -t nimmygeorge/devopsproject:latest .'
+        sh 'docker build -t nimmygeorge/devopsproject:latest .'
       }
     }
   }
